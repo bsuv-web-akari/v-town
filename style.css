@@ -60,3 +60,8 @@ body.open nav{opacity:1;pointer-events:auto}body.open .burger span{background:#f
 #contact form input,#contact form select,#contact form textarea{color:var(--ink);border-color:#c9c0b0}
 
 .hero .slide{opacity:0;transition:opacity 1.5s ease;animation:none}.hero .slide.on{opacity:1;animation:kb 6.5s ease-out forwards}@keyframes kb{from{transform:scale(1)}to{transform:scale(1.12)}}
+
+.band{position:relative;height:70vh;min-height:380px;background:center/cover fixed;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff}
+.band:before{content:"";position:absolute;inset:0;background:rgba(0,0,0,.35)}
+.band-txt{position:relative;z-index:1;padding:0 20px}.band h2{font-size:clamp(1.8rem,4.5vw,3.4rem);letter-spacing:.2em;margin:0 0 12px;color:#fff}.band p{letter-spacing:.3em;font-size:clamp(.95rem,1.6vw,1.2rem)}
+@media(max-width:900px){.band{background-attachment:scroll;height:55vh}}
