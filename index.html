@@ -197,21 +197,27 @@
         </div>
     </section>
     <footer>
-        <div class="wrap ft"><img src="https://static.wixstatic.com/media/89956f_260926160c7241e2b1652d86c57b794b~mv2.png/v1/fill/w_96,h_96,al_c,q_90/mark.png" alt="">
+        <div class="wrap ft has-map"><img src="https://static.wixstatic.com/media/89956f_260926160c7241e2b1652d86c57b794b~mv2.png/v1/fill/w_96,h_96,al_c,q_90/mark.png" alt="">
             <div>
                 <h4>唯謙建設股份有限公司</h4>
                 <p class="en">V-Chance Construction Co., Ltd</p>
                 <p>新北市新莊區福前街456~460號<br>電話 +886 2 2277 3277 ｜ 傳真 +886 2 2277 3166 ｜ <a href="mailto:service@vcco.com.tw">service@vcco.com.tw</a></p>
             </div>
+            <iframe class="vtown-footer-map" title="唯謙 V-TOWN 位置地圖" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d638.917032319657!2d121.46260712015649!3d25.05915740089891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9005d0c1acd%3A0xb534cee624f714b0!2z5ZSv6KyZ5paw6I6KdnRvd24!5e0!3m2!1szh-TW!2stw!4v1795764218891!5m2!1szh-TW!2stw" width="600" height="350" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <p class="copy">© V-Chance Construction Co. All Rights Reserved.</p>
     </footer>
     <script src="main.js"></script>
     <script>
-    (() => { const s = document.querySelectorAll(".hero .slide"); let i = 0;
-        setInterval(() => { s[i].classList.remove("on");
+    (() => {
+        const s = document.querySelectorAll(".hero .slide");
+        let i = 0;
+        setInterval(() => {
+            s[i].classList.remove("on");
             i = (i + 1) % s.length;
-            s[i].classList.add("on") }, 5000) })();
+            s[i].classList.add("on")
+        }, 5000)
+    })();
     </script>
 </body>
 
