@@ -499,39 +499,6 @@ footer p {
     margin-top: 10px
 }
 
- footer .ft.has-map {
-            display: grid;
-            grid-template-columns: 60px minmax(0, 1fr) minmax(0, .95fr);
-            gap: clamp(1rem, 2.2vw, 2rem);
-            align-items: start;
-        }
-
-        footer .vtown-footer-map {
-            display: block;
-            box-sizing: border-box;
-            width: 100%;
-            height: clamp(200px, 20vw, 270px);
-            border: 1px solid rgba(255, 255, 255, .14);
-            border-radius: 8px;
-            background: #202020;
-        }
-
-        footer .ft.has-map a {
-            overflow-wrap: anywhere;
-        }
-
-        @media (max-width: 760px) {
-            footer .ft.has-map {
-                grid-template-columns: 48px minmax(0, 1fr);
-                gap: 1rem;
-            }
-
-            footer .vtown-footer-map {
-                grid-column: 1 / -1;
-                height: 220px;
-            }
-        }
-
 .copy {
     text-align: center;
     margin-top: 50px;
