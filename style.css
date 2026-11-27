@@ -51,3 +51,12 @@ nav{position:fixed;inset:0;background:rgba(20,20,19,.97);color:#fff!important;fl
 body.open nav{opacity:1;pointer-events:auto}body.open .burger span{background:#fff!important}
 .two,.proj,.feat{grid-template-columns:1fr;gap:36px}.feat{margin-top:70px}.sec{padding:80px 0}.tr{grid-template-columns:1fr 1fr}
 .news li{flex-direction:column;gap:4px}.ft{flex-direction:column}.logo img{height:32px}.badges img{height:60px}}
+/* V-TOWN additions */
+.badges.txt{flex-wrap:wrap;gap:12px}.badges.txt span{border:1px solid var(--gold);color:var(--gold);padding:6px 16px;font-size:.85rem}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin-top:90px}.cards img{width:100%;aspect-ratio:4/3;object-fit:cover;margin-bottom:18px}.cards h4{color:#fff;font-size:1.15rem;margin-bottom:8px}.cards p{font-size:.9rem;color:#bbb}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:40px}.gal img{width:100%;aspect-ratio:4/3;object-fit:cover}
+#night .gal{grid-template-columns:repeat(2,1fr)}
+@media(max-width:860px){.cards{grid-template-columns:1fr;margin-top:60px}.gal{grid-template-columns:1fr 1fr}}
+#contact form input,#contact form select,#contact form textarea{color:var(--ink);border-color:#c9c0b0}
+
+.hero .slide{opacity:0;transition:opacity 1.5s ease;animation:none}.hero .slide.on{opacity:1;animation:kb 6.5s ease-out forwards}@keyframes kb{from{transform:scale(1)}to{transform:scale(1.12)}}
